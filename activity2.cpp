@@ -5,11 +5,11 @@ using namespace std;
 int main() {
 
     string FullName, CourseYrSec, Birthday, Motto;
-
+    
     cout << "Enter your Full Name: ";
     getline(cin, FullName);
 
-    cout << "Enter your Course, Year & Section: ";
+    cout << "Enter your Course, Year and Section: ";
     getline(cin, CourseYrSec);
 
     cout << "Enter your Birthday: ";
@@ -19,10 +19,10 @@ int main() {
     getline(cin, Motto);
 
     // output
-    cout << "Hi! I’m " << FullName << " of " << CourseYrSec 
+    cout << "Hi! I\'m " << FullName << " of " << CourseYrSec
          << ". Welcome to Data Structure and Algorithm!" << endl;
 
-    cout << "My Birthdate is " << Birthday 
+    cout << "My Birthdate is " << Birthday
          << ". And my Motto/Motivation in life is " << Motto << "." << endl;
 
     return 0;
