@@ -4,14 +4,14 @@ using namespace std;
 
 int main() {
 
-string FullNameee, CourseYearSeccc, Birthdayyy , Mottooo;
+string FullNameee, Course Yr. & Sec, Birthdayyy , Mottooo;
 
 //input
 cout << “Enter your Full Name: “;
 getline (cin, FullNameee);
 
 cout << “Enter your Course, Year and Section: “;
-getline (cin, CourseYearSeccc);
+getline (cin, Course Yr. & Sec);
 
 cout << “ yourEnter Birthday: “;
 getline (cin, Birthdayyy);
@@ -21,8 +21,9 @@ getline (cin, Mottooo);
 
 //output
 
-cout << “Hi! I’m “ << FullNameee << “of “ << CourseYearSeccc << “. Welcome to Data Structure and Algorithm!” << endl;
+cout << “Hi! I’m “ << FullNameee << “of “ << Course Yr. & Sec << “. Welcome to Data Structure and Algorithm!” << endl;
 cout << “ My Birthdate is  “ << Birthdayyy << “. And my Motto/Motivation in life is “ << Mottooo << “.” endl;
 
 return 0;
+
 }
