@@ -4,26 +4,26 @@ using namespace std;
 
 int main() {
 
-string FullNameee, Course Yr. & Sec, Birthdayyy , Mottooo;
+    string FullName, CourseYrSec, Birthday, Motto;
 
-//input
-cout << “Enter your Full Name: “;
-getline (cin, FullNameee);
+    cout << "Enter your Full Name: ";
+    getline(cin, FullName);
 
-cout << “Enter your Course, Year and Section: “;
-getline (cin, Course Yr. & Sec);
+    cout << "Enter your Course, Year & Section: ";
+    getline(cin, CourseYrSec);
 
-cout << “ yourEnter Birthday: “;
-getline (cin, Birthdayyy);
+    cout << "Enter your Birthday: ";
+    getline(cin, Birthday);
 
-cout << “Enter your Motto/Motivation in life;
-getline (cin, Mottooo);
+    cout << "Enter your Motto/Motivation in life: ";
+    getline(cin, Motto);
 
-//output
+    // output
+    cout << "Hi! I’m " << FullName << " of " << CourseYrSec 
+         << ". Welcome to Data Structure and Algorithm!" << endl;
 
-cout << “Hi! I’m “ << FullNameee << “of “ << Course Yr. & Sec << “. Welcome to Data Structure and Algorithm!” << endl;
-cout << “ My Birthdate is  “ << Birthdayyy << “. And my Motto/Motivation in life is “ << Mottooo << “.” endl;
+    cout << "My Birthdate is " << Birthday 
+         << ". And my Motto/Motivation in life is " << Motto << "." << endl;
 
-return 0;
-
+    return 0;
 }
